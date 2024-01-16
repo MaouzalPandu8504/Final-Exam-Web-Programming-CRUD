@@ -1,0 +1,56 @@
+html,
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.side-bar {
+  width: 200px;
+  height: 100%;
+  position: fixed;
+  overflow: auto;
+  margin: 0;
+  padding: 0;
+  background-color: #000000;
+  box-shadow: 0 5px 10px grey;
+  z-index: 2;
+}
+.side-bar p {
+  font-family: monospace;
+  font-size: 20px;
+  margin-left: 5px;
+  color: white;
+}
+.side-bar a {
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+  display: block;
+  padding: 20px;
+}
+.side-bar a.active {
+  background-color: #04aa6d;
+}
+.side-bar a:hover:not(.active) {
+  background-color: #555;
+}
+.button-add {
+  width: 50px;
+  height: 50px;
+  display: fixed;
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+  background-color: #04aa6d;
+  color: white;
+  border-radius: 50%;
+  margin: 25px 25px;
+  text-decoration: none;
+  text-align: center;
+  font-size: xx-large;
+}
+.button-add:hover {
+  background-color: #027e51;
+}
+.main {
+  margin-left: 200px;
+}

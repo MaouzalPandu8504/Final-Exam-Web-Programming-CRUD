@@ -1,0 +1,33 @@
+body,
+html {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+form {
+  margin-top: 15%;
+  border: 1px solid gray;
+  box-shadow: 5px 5px 10px black;
+  padding: 0 150px 20px 15px;
+}
+
+input[type="button"] {
+  background-color: blue;
+}
+.container {
+  display: grid;
+  place-items: center;
+}
+.close_button {
+  width: 30px;
+  height: 30px;
+  display: fixed;
+  position: fixed;
+  top: 15px;
+  right: 15px;
+  background-color: red;
+  color: white;
+  border-radius: 30%;
+  text-decoration: none;
+  text-align: center;
+  font-size: 21px;
+}

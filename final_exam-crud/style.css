@@ -1,0 +1,77 @@
+body,
+html {
+  margin: 0;
+}
+body {
+  font-size: 18px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.side-bar {
+  width: 200px;
+  height: 100%;
+  position: fixed;
+  overflow: auto;
+  margin: 0;
+  padding: 0;
+  background-color: #000000;
+  box-shadow: 5px 0px 10px 5px grey;
+  z-index: 2;
+}
+.side-bar p {
+  font-family: monospace;
+  font-size: 20px;
+  margin-left: 5px;
+  color: white;
+}
+.side-bar a {
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+  display: block;
+  padding: 20px;
+}
+.side-bar a.active {
+  background-color: #04aa6d;
+}
+.side-bar a:hover:not(.active) {
+  background-color: #555;
+}
+.button-add {
+  width: 50px;
+  height: 50px;
+  display: fixed;
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+  background-color: #04aa6d;
+  color: white;
+  border-radius: 30%;
+  text-decoration: none;
+  text-align: center;
+  font-size: xx-large;
+}
+.button-add:hover {
+  background-color: #027e51;
+}
+.main-content {
+  padding: 35px 0;
+  margin-left: 200px;
+}
+table {
+  margin-left: 3%;
+  border-collapse: collapse;
+  width: 90%;
+}
+table th {
+  background-color: #04aa6d;
+  color: white;
+  border: 1px solid black;
+}
+table td {
+  text-align: center;
+  padding: 10px 0 10px;
+}
+table a {
+  text-decoration: none;
+  color: black;
+}
